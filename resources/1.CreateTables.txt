@@ -1,0 +1,6 @@
+create 'EMPLOYEES', {NAME=>'PersonalData'}, {NAME=>'ProfessionalData'}
+
+create 'EMPLOYEESCOMP', {NAME=>'PersonalData',COMPRESSION=>'SNAPPY'}, {NAME=>'ProfessionalData',COMPRESSION=>'SNAPPY'}
+
+create 'EMPLOYEESSPLIT', {NAME=>'PersonalData'}, {NAME=>'ProfessionalData',COMPRESSION=>'SNAPPY'}, 
+{SPLITS => ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'] } 

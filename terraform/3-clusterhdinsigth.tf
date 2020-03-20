@@ -51,7 +51,7 @@ resource "azurerm_hdinsight_hbase_cluster" "hd" {
       vm_size               = "Standard_D3_V2"
       username              = var.ssh_user_name
       password              = var.ssh_password
-      target_instance_count = 1
+      target_instance_count = 3
     }
 
     zookeeper_node {

@@ -1,0 +1,1 @@
+hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.separator=',' -Dimporttsv.columns=HBASE_ROW_KEY,PersonalData:Id,PersonalData:FirstName,PersonalData:LastName,PersonalData:Age,PersonalData:City,ProfessionalData:Designation,ProfessionalData:Salary EMPLOYEES https://stohdinsightdev.blob.core.windows.net/hdinsight/data/employees.csvhdinsight/data/employess.csv

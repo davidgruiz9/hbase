@@ -1,0 +1,29 @@
+CREATE VIEW "EMPLOYEES" (
+pk VARCHAR PRIMARY KEY, 
+"PersonalData"."Id" VARCHAR, 
+"PersonalData"."FirstName" VARCHAR, 
+"PersonalData"."LastName" VARCHAR,
+"PersonalData"."Age" INTEGER,
+"PersonalData"."City" VARCHAR,
+"ProfessionalData"."Designation" VARCHAR,
+"ProfessionalData"."Salary" DOUBLE);
+
+CREATE VIEW "EMPLOYEESCOMP" (
+pk VARCHAR PRIMARY KEY, 
+"PersonalData"."Id" VARCHAR, 
+"PersonalData"."FirstName" VARCHAR, 
+"PersonalData"."LastName" VARCHAR,
+"PersonalData"."Age" INTEGER,
+"PersonalData"."City" VARCHAR,
+"ProfessionalData"."Designation" VARCHAR,
+"ProfessionalData"."Salary" DOUBLE);
+
+CREATE VIEW "EMPLOYEESSPLIT" (
+pk VARCHAR PRIMARY KEY, 
+"PersonalData"."Id" VARCHAR, 
+"PersonalData"."FirstName" VARCHAR, 
+"PersonalData"."LastName" VARCHAR,
+"PersonalData"."Age" INTEGER,
+"PersonalData"."City" VARCHAR,
+"ProfessionalData"."Designation" VARCHAR,
+"ProfessionalData"."Salary" DOUBLE);
